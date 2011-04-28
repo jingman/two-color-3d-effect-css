@@ -1,0 +1,60 @@
+.text-3d(@c: #ccc) {
+  @c_d: desaturate(darken(@c, 20%), 10%);
+  @c_l: desaturate(darken(@c, 5%), 10%);
+  @shadow:  1px 0px @c_l, 0px 1px @c_d,
+            2px 1px @c_l, 1px 2px @c_d,
+            3px 2px @c_l, 2px 3px @c_d,
+            4px 3px @c_l, 3px 4px @c_d,
+            5px 4px @c_l, 4px 5px @c_d,
+            6px 5px @c_l, 5px 6px @c_d,
+            7px 6px @c_l, 6px 7px @c_d,
+            8px 7px @c_l, 7px 8px @c_d,
+            8px 8px @c_l;
+  text-shadow: @shadow;
+}
+
+.box-3d(@c: #ccc) {
+  @c_d: desaturate(darken(@c, 20%), 10%);
+  @c_l: desaturate(darken(@c, 5%), 10%);
+  @shadow:  1px 0px @c_l, 0px 1px @c_d,
+            2px 1px @c_l, 1px 2px @c_d,
+            3px 2px @c_l, 2px 3px @c_d,
+            4px 3px @c_l, 3px 4px @c_d,
+            5px 4px @c_l, 4px 5px @c_d,
+            6px 5px @c_l, 5px 6px @c_d,
+            7px 6px @c_l, 6px 7px @c_d,
+            8px 7px @c_l, 7px 8px @c_d,
+            8px 8px @c_l;
+  box-shadow: @shadow;
+}
+
+body {
+  padding-top: 10%;
+  background: #6280B7;
+}
+
+p {
+  color: #fff;
+  @shadow_color: darken(#6280B7, 5%);
+  text-align: center;
+  font-size: 60px;
+  &.raleway {
+    font-family: 'Raleway', arial, serif;
+    letter-spacing: 4px;
+    .text-3d(@shadow_color);
+  }
+  &.sniglet {
+    font-family: 'Sniglet', arial, serif;
+    .text-3d(@shadow_color);
+  }
+  &.lobster {
+    margin-top: 1.2em;
+    font-family: 'Lobster', arial, serif;
+    span {
+      padding: 20px 40px;
+      color: #6280B7;
+      background: #fff;
+      .box-3d(@shadow_color);
+    }
+  }
+}

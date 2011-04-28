@@ -1,0 +1,28 @@
+body {
+  padding-top: 10%;
+  background: #6280B7;
+}
+p {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+}
+p.raleway {
+  font-family: 'Raleway', arial, serif;
+  letter-spacing: 4px;
+  text-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
+}
+p.sniglet {
+  font-family: 'Sniglet', arial, serif;
+  text-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
+}
+p.lobster {
+  margin-top: 1.2em;
+  font-family: 'Lobster', arial, serif;
+}
+p.lobster span {
+  padding: 20px 40px;
+  color: #6280B7;
+  background: #fff;
+  box-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
+}
