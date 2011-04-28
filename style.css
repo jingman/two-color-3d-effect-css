@@ -1,6 +1,6 @@
 body {
   padding-top: 10%;
-  background: #6280B7;
+  background: #6280b7;
 }
 p {
   color: #fff;
@@ -22,7 +22,9 @@ p.lobster {
 }
 p.lobster span {
   padding: 20px 40px;
-  color: #6280B7;
+  color: #6280b7;
   background: #fff;
+  -webkit-box-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
+  -moz-box-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
   box-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
 }

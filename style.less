@@ -25,17 +25,21 @@
             7px 6px @c_l, 6px 7px @c_d,
             8px 7px @c_l, 7px 8px @c_d,
             8px 8px @c_l;
-  box-shadow: @shadow;
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
 }
+
+@bg_color: #6280B7;
 
 body {
   padding-top: 10%;
-  background: #6280B7;
+  background: @bg_color;
 }
 
 p {
   color: #fff;
-  @shadow_color: darken(#6280B7, 5%);
+  @shadow_color: darken(@bg_color, 5%);
   text-align: center;
   font-size: 60px;
   &.raleway {
@@ -52,7 +56,7 @@ p {
     font-family: 'Lobster', arial, serif;
     span {
       padding: 20px 40px;
-      color: #6280B7;
+      color: @bg_color;
       background: #fff;
       .box-3d(@shadow_color);
     }
