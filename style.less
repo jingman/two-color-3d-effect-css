@@ -37,6 +37,15 @@ body {
   background: @bg_color;
 }
 
+a {
+  color: #ffed9d;
+  text-decoration: none;
+  &:hover {
+    color: #ffe67c;
+    text-decoration: underline;
+  }
+}
+
 p {
   color: #fff;
   @shadow_color: darken(@bg_color, 5%);
@@ -60,5 +69,10 @@ p {
       background: #fff;
       .box-3d(@shadow_color);
     }
+  }
+  &.credit {
+    margin-top: 80px;
+    font-family: 'Raleway', arial, serif;
+    font-size: 30px;
   }
 }

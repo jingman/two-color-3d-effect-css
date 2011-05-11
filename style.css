@@ -2,6 +2,14 @@ body {
   padding-top: 10%;
   background: #6280b7;
 }
+a {
+  color: #ffed9d;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffe67c;
+  text-decoration: underline;
+}
 p {
   color: #fff;
   text-align: center;
@@ -27,4 +35,9 @@ p.lobster span {
   -webkit-box-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
   -moz-box-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
   box-shadow: 1px 0px #546a92, 0px 1px #384762, 2px 1px #546a92, 1px 2px #384762, 3px 2px #546a92, 2px 3px #384762, 4px 3px #546a92, 3px 4px #384762, 5px 4px #546a92, 4px 5px #384762, 6px 5px #546a92, 5px 6px #384762, 7px 6px #546a92, 6px 7px #384762, 8px 7px #546a92, 7px 8px #384762, 8px 8px #546a92;
+}
+p.credit {
+  margin-top: 80px;
+  font-family: 'Raleway', arial, serif;
+  font-size: 30px;
 }
